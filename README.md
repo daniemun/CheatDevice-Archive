@@ -69,7 +69,7 @@ This archive was made by scouring old websites (with **[Wayback Machine](https:/
 | v1.0b         | :white_check_mark:        | :x:                       ||
 | v1.0c         | :white_check_mark:        | :x:                       ||
 | v1.0d         | :white_check_mark:        | :x:                       | First **Cheat Device** to be released as a PRX |
-| v1.0e         | :x:                       | :x:                       ||
+| v1.0e         | :white_check_mark:        | :x:                       ||
 | v1.0f         | :white_check_mark:        | :x:                       ||
 | v1.0g         | :white_check_mark:        | :white_check_mark:        ||
 | v1.0h         | :x:                       | :x:                       | Probably doesn't exist, see **[this](./LCS/Cheat%20Device/v1.0/v1.0h/README.md)**. |
@@ -129,3 +129,5 @@ Refer to _[Misc. Content](./Miscellaneous%20Content.md#miscellaneous-content)_.
    - More VCS UserCheats
    - Noobz LCS Goofy Exploit
    - Hexed LCS v1.0g PRXs
+
+ - ***Ren Fuchsfein / Upaluppa*** - _[Grand Theft Auto: Liberty & Vice City Stories PSP CheatDevice Cheats by Upaluppa](https://archive.org/details/upaluppa-gta-cheatdevice-backup_202501)_

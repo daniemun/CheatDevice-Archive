@@ -1,7 +1,7 @@
 # LCS Cheat Device v1.0e
 
 ## Release Date
-Between 24 jan. 2007 and 07 fev. 2007.
+3 fev. 2007
 
 ## Changelog
  - Adds back Hover Cars and Construction Mode.
@@ -12,6 +12,3 @@ Between 24 jan. 2007 and 07 fev. 2007.
  
 ## Archival Notes
 First CD version to only be released as a PRX.
-
-> [!NOTE]
-> This version is unarchived!
