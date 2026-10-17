@@ -15,6 +15,6 @@ Last version to be officially released for LCS.
  - original ver: `0x1D`
  - hexed ver: `0x2A`
 	
-My theory (@danssmnt) is that this is a flag for compatible firmware versions (kinda like the `PSP_FW_VERSION` flag), but I really don't know. For now, archive should have both.
+My theory (@daniemun) is that this is a flag for compatible firmware versions (kinda like the `PSP_FW_VERSION` flag), but I really don't know. For now, archive should have both.
 
 Feel free to correct any of the above info if you know more about it.

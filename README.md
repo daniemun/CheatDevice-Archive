@@ -25,7 +25,7 @@ It was very famous back in the day, even allowing you to create your own cheats 
 
 ---
 
-This project was started by me ([@danssmnt](https://github.com/danssmnt)), with the help of some OG CheatDevice members, as a way to preserve an almost 20 year old homebrew. 
+This project was started by me ([@daniemun](https://github.com/daniemun)), with the help of some OG CheatDevice members, as a way to preserve an almost 20 year old homebrew. 
 Even with the popularity back then, **Cheat Device** has been slowly dying over time, with more and more content being removed and taken down from the internet, so, I decided it was best to try and preserve most of **Cheat Device** history before it was lost for good.
 
 This archive was made by scouring old websites (with **[Wayback Machine](https://web.archive.org/)**) and GTA Forums from back in the day.

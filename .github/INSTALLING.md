@@ -19,7 +19,7 @@
 
 Clone the repo, either press `Code/Download ZIP` on browser, or run the following command on a terminal: 
 ```
-git clone https://github.com/danssmnt/CheatDevice-Archive
+git clone https://github.com/daniemun/CheatDevice-Archive
 ```
 
 From there you can access all archived versions (inside LCS and VCS) plus some bonus content!
@@ -76,5 +76,5 @@ That should be it, now boot up your GTA and everything should work, you might ha
 
 ---
 
-Guide written by [@danssmnt](https://github.com/danssmnt).
+Guide written by [@daniemun](https://github.com/daniemun).
 Feel free to correct any mistakes / innacuracies you find!
