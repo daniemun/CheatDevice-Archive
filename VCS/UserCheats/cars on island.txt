@@ -1,0 +1,37 @@
+#cheat Cars on the golf island
+// Car Spawn created with Pascal95's "VCS Car Spawner v2.5"
+// http://www.gtaforums.com/index.php?showuser=516116 (my user profile)
+// http://www.gtaforums.com/index.php?showtopic=453092 (discussion about this great tool)
+// created: 04.07.10
+
+pspawn = 0x08E81290;
+
+// 1. car
+setint(pspawn,  172); //ID: 172 / Car: Cheetah
+setfloat(pspawn + 4,  164.39,  -108.78,  12,  0);
+pspawn += 0x30;
+
+// 2. car
+setint(pspawn,  175); //ID: 175 / Car: Banshee
+setfloat(pspawn + 4,  168,  -98.03,  12,  0);
+pspawn += 0x30;
+
+// 3. car
+setint(pspawn,  175); //ID: 175 / Car: Banshee
+setfloat(pspawn + 4,  171.79,  -87.28,  12,  0);
+pspawn += 0x30;
+
+// 4. car
+setint(pspawn,  270); //ID: 270 / Car: Infernus
+setfloat(pspawn + 4,  158.05,  -128.36,  12,  0);
+pspawn += 0x30;
+
+// 5. car
+setint(pspawn,  270); //ID: 270 / Car: Infernus
+setfloat(pspawn + 4,  168.15,  132.82,  12,  0);
+pspawn += 0x30;
+
+
+// Teleport
+teleport(134.31, -99.17, 12);
+

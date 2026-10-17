@@ -1,0 +1,128 @@
+#cheat Get attacked by all peds on screen
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x8);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat all peds on screen enter your car as passengers
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer && !(getint(0x098b4a40 + i + 0x480)) && pcar) {
+       setchar(0x098b4a40 + i + 0x894, 0x21);
+       setint(0x098b4a40 + i +0x484, pcar);
+       setint(0x098b4a40 + i +0x450, pcar);
+   }
+}
+off();
+
+#cheat all peds on screen enter your car as passengers 2
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer && !(getint(0x098b4a40 + i + 0x480)) && pcar) {
+       setchar(0x098b4a40 + i + 0x894, 0x11);
+       setint(0x098b4a40 + i +0x484, pcar);
+       setint(0x098b4a40 + i +0x450, pcar);
+   }
+}
+off();
+
+#cheat all peds on screen try to jack your car
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer && !(getint(0x098b4a40 + i + 0x480)) && pcar) {
+       setchar(0x098b4a40 + i + 0x894, 0x12);
+       setint(0x098b4a40 + i +0x484, pcar);
+       setint(0x098b4a40 + i +0x450, pcar);
+   }
+}
+off();
+
+#cheat all peds on screen try to jack your car 2
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x12);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat all peds on screen follow you
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0xc);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI 1 walking
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x04);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat all peds Lock On to your car
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x16);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI driving
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x17);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI 2 walking
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x18);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI 2 sprinting
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x19);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI 3 walking
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x1E);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat all peds Call for Taxi
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x20);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();
+
+#cheat Enable AI 4 running
+for(i=0; 0x098b4a40+i<=0x098ecf90; i+=0xd10) {
+   if(0x098b4a40 + i != pplayer) {
+       setchar(0x098b4a40 + i + 0x894, 0x31);
+       setint(0x098b4a40 + i + 0x890, pplayer);
+   }
+}
+off();

@@ -1,0 +1,54 @@
+#cheat Flash FM
+setchar(pcar+0x2b7, 0);
+setchar(0x8bb11dc, 0);
+setchar(0x9a6341b, 0);
+
+#cheat V Rock
+setchar(pcar+0x2b7, 1);
+setchar(0x8bb11dc, 1);
+setchar(0x9a6341b, 1);
+
+#cheat Paradise
+setchar(pcar+0x2b7, 2);
+setchar(0x8bb11dc, 2);
+setchar(0x9a6341b, 2);
+
+#cheat VCPR
+setchar(pcar+0x2b7, 3);
+setchar(0x8bb11dc, 3);
+setchar(0x9a6341b, 3);
+
+#cheat VCFL Radio
+setchar(pcar+0x2b7, 4);
+setchar(0x8bb11dc, 4);
+setchar(0x9a6341b, 4);
+
+#cheat The Wave 103
+setchar(pcar+0x2b7, 5);
+setchar(0x8bb11dc, 5);
+setchar(0x9a6341b, 5);
+
+#cheat Fresh 105 FM
+setchar(pcar+0x2b7, 6);
+setchar(0x8bb11dc, 6);
+setchar(0x9a6341b, 6);
+
+#cheat Espantoso
+setchar(pcar+0x2b7, 7);
+setchar(0x8bb11dc, 7);
+setchar(0x9a6341b, 7);
+
+#cheat Emotion 98.3
+setchar(pcar+0x2b7, 8);
+setchar(0x8bb11dc, 8);
+setchar(0x9a6341b, 8);
+
+#cheat Radio Off
+setchar(pcar+0x2b7, 9);
+setchar(0x8bb11dc, 9);
+setchar(0x9a6341b, 9);
+
+#cheat Custom Soundtracks
+setchar(pcar+0x2b7, 10);
+setchar(0x8bb11dc, 10);
+setchar(0x9a6341b, 10);

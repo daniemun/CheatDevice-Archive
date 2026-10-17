@@ -1,0 +1,16 @@
+#cheat Turn the Vice Point Mall BMX into another Vehicle
+pspawn = 0x08E82CA0;
+setchar(0x8BAEDB8, '%', 'd', 0);
+setchar(0x8BAEDC0, '%', 'd', 0);
+static start;
+if (!start){
+pobject = 178;
+start = 1;
+money = getint(0x08E81290);}
+setint(0x08bde55c, money, money);
+setint(0x08bde55c, pobject, pobject);
+if (buttons & CTRL_LTRIGGER && pressfast & CTRL_LEFT){
+pobject = pobject-1;}
+if (buttons & CTRL_LTRIGGER && pressfast & CTRL_RIGHT){
+pobject = pobject+1;}
+setint(pspawn, pobject);

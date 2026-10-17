@@ -1,0 +1,77 @@
+#cheat Vance gang hates you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 103 || ID == 104 || ID == 89 || ID == 90 || ID == 107 || ID == 108){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0x8);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;
+
+#cheat Cubans follow you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 91 || ID == 92){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0xC);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;
+
+#cheat Cubans hate you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 91 || ID == 92){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0x8);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;
+
+#cheat Haitians hate you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 37 || ID == 40){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0x8);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;
+
+#cheat PIG's hate you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 99 || ID == 100){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0x8);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;
+
+#cheat Criminals hate you
+static timer;
+if(timer%1000==0)
+for(x=0; 0x098b4a40+x<=0x098ecf90; x+=0xd10){
+ID = getshort(0x098b4a40+x+0x56);
+if(ID == 55 || ID == 58){
+if(0x098b4a40+x != pplayer&&!getint(0x098b4a40+x+0x480)){
+setchar(0x098b4a40+x+0x894, 0x8);
+setint(0x098b4a40+x+0x890, pplayer);}}}
+timer++;
+if(timer==1000)
+timer=0;

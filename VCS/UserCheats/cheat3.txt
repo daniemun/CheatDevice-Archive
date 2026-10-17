@@ -1,0 +1,215 @@
+#cheat Cars on top of tall buildings
+// Car Spawn created with Pascal95's "VCS Car Spawner v2.5"
+// http://www.gtaforums.com/index.php?showuser=516116 (my user profile)
+// http://www.gtaforums.com/index.php?showtopic=453092 (discussion about this great tool)
+// created: 03.07.10
+
+pspawn = 0x08E81290;
+
+// 1. car
+setint(pspawn,  180); //ID: 180 / Car: Bobcat
+setfloat(pspawn + 4,  210,  -835,  111,  0);
+pspawn += 0x30;
+
+// 2. car
+setint(pspawn,  270); //ID: 270 / Car: Infernus
+setfloat(pspawn + 4,  215,  -843,  111,  0);
+pspawn += 0x30;
+
+// 3. car
+setint(pspawn,  270); //ID: 270 / Car: Infernus
+setfloat(pspawn + 4,  208,  -822,  111,  0);
+pspawn += 0x30;
+
+// 4. car
+setint(pspawn,  276); //ID: 276 / Car: Washington
+setfloat(pspawn + 4,  227,  -805,  111,  90);
+pspawn += 0x30;
+
+// 5. car
+setint(pspawn,  255); //ID: 255 / Car: BF Injection
+setfloat(pspawn + 4,  240,  -786,  131,  0);
+pspawn += 0x30;
+
+// 6. car
+setint(pspawn,  256); //ID: 256 / Car: Pheonix
+setfloat(pspawn + 4,  246,  -771,  131,  0);
+pspawn += 0x30;
+
+// 7. car
+setint(pspawn,  256); //ID: 256 / Car: Pheonix
+setfloat(pspawn + 4,  77,  -809,  91,  0);
+pspawn += 0x30;
+
+// 8. car
+setint(pspawn,  256); //ID: 256 / Car: Pheonix
+setfloat(pspawn + 4,  79,  -811,  87,  0);
+pspawn += 0x30;
+
+// 9. car
+setint(pspawn,  172); //ID: 172 / Car: Cheetah
+setfloat(pspawn + 4,  -126,  -1043,  85,  0);
+pspawn += 0x30;
+
+// 10. car
+setint(pspawn,  172); //ID: 172 / Car: Cheetah
+setfloat(pspawn + 4,  -119,  -1035,  85,  0);
+pspawn += 0x30;
+
+// 11. car
+setint(pspawn,  176); //ID: 176 / Car: Perennial
+setfloat(pspawn + 4,  165,  -907,  96,  0);
+pspawn += 0x30;
+
+// 12. car
+setint(pspawn,  178); //ID: 178 / Car: BMX (Boy)
+setfloat(pspawn + 4,  88.34,  -806.11,  73,  0);
+pspawn += 0x30;
+
+// 13. car
+setint(pspawn,  178); //ID: 178 / Car: BMX (Boy)
+setfloat(pspawn + 4,  537,  -213,  155,  0);
+pspawn += 0x30;
+
+// 14. car
+setint(pspawn,  178); //ID: 178 / Car: BMX (Boy)
+setfloat(pspawn + 4,  540,  -213,  155,  0);
+pspawn += 0x30;
+
+// 15. car
+setint(pspawn,  178); //ID: 178 / Car: BMX (Boy)
+setfloat(pspawn + 4,  55,  -218,  155,  0);
+pspawn += 0x30;
+
+// 16. car
+setint(pspawn,  181); //ID: 181 / Car: Bull Dozer
+setfloat(pspawn + 4,  476,  -419,  37,  0);
+pspawn += 0x30;
+
+// 17. car
+setint(pspawn,  181); //ID: 181 / Car: Bull Dozer
+setfloat(pspawn + 4,  133,  -1045,  46,  0);
+pspawn += 0x30;
+
+// 18. car
+setint(pspawn,  184); //ID: 184 / Car: Caddy
+setfloat(pspawn + 4,  101,  -1090,  46,  0);
+pspawn += 0x30;
+
+// 19. car
+setint(pspawn,  184); //ID: 184 / Car: Caddy
+setfloat(pspawn + 4,  59,  -1131,  31,  0);
+pspawn += 0x30;
+
+// 20. car
+setint(pspawn,  186); //ID: 186 / Car: Polaris V8
+setfloat(pspawn + 4,  -148,  -1176,  104,  0);
+pspawn += 0x30;
+
+// 21. car
+setint(pspawn,  186); //ID: 186 / Car: Polaris V8
+setfloat(pspawn + 4,  -158,  -1193,  104,  0);
+pspawn += 0x30;
+
+// 22. car
+setint(pspawn,  186); //ID: 186 / Car: Polaris V8
+setfloat(pspawn + 4,  -152,  -1299,  39,  0);
+pspawn += 0x30;
+
+// 23. car
+setint(pspawn,  195); //ID: 195 / Car: Glendale
+setfloat(pspawn + 4,  -141,  -1321,  37,  0);
+pspawn += 0x30;
+
+// 24. car
+setint(pspawn,  194); //ID: 194 / Car: Fire Truck
+setfloat(pspawn + 4,  -128,  -1432,  97,  0);
+pspawn += 0x30;
+
+// 25. car
+setint(pspawn,  193); //ID: 193 / Car: FBI Car
+setfloat(pspawn + 4,  -117,  -1449,  97,  0);
+pspawn += 0x30;
+
+// 26. car
+setint(pspawn,  192); //ID: 192 / Car: Esperanto
+setfloat(pspawn + 4,  -112,  -1470,  97,  0);
+pspawn += 0x30;
+
+// 27. car
+setint(pspawn,  192); //ID: 192 / Car: Esperanto
+setfloat(pspawn + 4,  12.68,  -1517,  58,  0);
+pspawn += 0x30;
+
+
+// Teleport
+teleport(205, -833, 111);
+
+
+#cheat Spawn Infernus next to you
+x = getfloat(pplayer + 0x30);
+y = getfloat(pplayer + 0x34);
+z = getfloat(pplayer + 0x38);
+pspawn = 0x08E81290;
+setint(pspawn,  270); //ID: 270 / Car: Infernus
+setfloat(pspawn + 4,  x,  y,  z,  0);
+pspawn += 0x30;
+off();
+
+#cheat Spawn hunter
+x = getfloat(pplayer + 0x30);
+y = getfloat(pplayer + 0x34);
+z = getfloat(pplayer + 0x38);
+pspawn = 0x08E81290;
+setint(pspawn, 275); //ID: 275 / Car: Hunter
+setfloat(pspawn + 4, x, y, z, 0);
+pspawn += 0x30;
+off(); 
+
+#cheat AI Vehicle Script
+static spawn;
+if (spawn != 2)
+{
+spawn = 1;
+}
+if (spawn == 1)
+{
+static time;
+time++;
+if (time <= 50)
+{
+static counter;
+setint(0x08C73A70, 207);
+setchar(0x08C73A94, 0, 0, 0);
+setchar(0x08C73A98, 0, 0, 0);
+vspawn = 0x08E82CA0;
+spawnid = 260; // The vehicle ID <-------------------------------------
+setint(vspawn, spawnid);
+setfloat(vspawn + 0x04, -1077.40, 312.63, 11.26, 180); // The vehicle spawn coordinates <-----------------------------------
+if (counter++ % 30 == 0)
+{
+for (p = 0x098EDCC0; p <= 0x099019A0; p += 0x0820)
+{
+checkid = getshort(p + 0x56);
+if (checkid == spawnid)
+{
+setchar(p + 0x0267, 0x75);
+}
+}
+}
+}
+if (time >= 51 && time <= 100)
+{
+for (p2 = 0x098EDCC0; p2 <= 0x099019A0; p2 += 0x0820)
+{
+setchar(p2 + 0x0267, 0x44);
+}
+}
+if (time >= 101)
+{
+spawn = 2;
+time = 0;
+}
+}
+#off
+spawn = time = counter = 0;

@@ -1,0 +1,104 @@
+#cheat Teleport To VC Stunt Ramp's
+teleport(-526.43, 916.84, 68.43);
+
+#cheat VC Stunt Ramp's
+//ID: 19124
+//Score: 82
+//Author: psphacker108
+//Category: Environment
+//Description: Rember the mission in VC that had all of thouse Ramp's? vehicle Spawns included! A ATV,PCJ600 And a Angle biker's bike.Well I have duplicated it almost to come to vcs check the pic, I recommend using rocket boost.
+//Image: http://i66.photobucket.com/albums/h257/pspman108/video1-6.gif
+//Time: 28/12/2006 21:55:57
+//Working: Yes
+moveto(-536.20, 1029.09, 66.63);  object(0x1D0F, 0, 0, 340);
+move(4.13, 1.52, 0.00);  object(0x1D0F, 0, 0, 340);
+move(-51.62, 73.16, -15.20);  object(0x1D0F, 0, 0, 298);
+move(2.14, 4.07, 0.00);  object(0x1D0F, 0, 0, 298);
+move(2.14, 4.07, 0.00);  object(0x1D0F, 0, 0, 298);
+move(-49.59, 17.70, -19.70);  object(0x1D0F, 0, 0, 270);
+move(-0.03, 4.60, 0.00);  object(0x1D0F, 0, 0, 270);
+move(-46.67, -7.44, 7.90);  object(0x1D0F, 350, 0, 271);
+move(3.23, -0.36, 1.20);  object(0x1D0F, 350, 0, 271);
+move(0.08, 4.70, 0.00);  object(0x1D0F, 350, 0, 271);
+move(0.08, 4.50, 0.00);  object(0x1D0F, 350, 0, 271);
+move(-42.36, 29.35, -8.00);  object(0x1D0F, 350, 0, 0);
+move(-4.10, 0.01, 0.00);  object(0x1D0F, 350, 0, 0);
+move(-4.50, 0.01, 0.00);  object(0x1D0F, 350, 0, 0);
+move(38.93, 93.49, -8.00);  object(0x028E, 350, 0, 4);
+move(3.99, -0.29, 0.00);  object(0x028E, 350, 0, 4);
+move(-5.73, 53.74, -3.70);  object(0x028E, 350, 0, 357);
+move(-3.89, -0.24, 0.00);  object(0x028E, 350, 0, 357);
+move(79.04, 53.97, 2.40);  object(0x028E, 350, 0, 89);
+move(-0.08, 3.80, 0.00);  object(0x028E, 350, 0, 89);
+move(93.29, -10.63, 2.50);  object(0x028E, 350, 0, 98);
+move(88.46, 2.75, -0.20);  object(0x02A5, 350, 0, 87);
+move(44.40, 10.57, 4.10);  object(0x02A5, 350, 0, 68);
+move(65.86, 24.58, -2.20);  object(0x02A5, 350, 0, 122);
+move(36.44, -30.94, 0.00);  object(0x02A5, 345, 0, 166);
+move(4.44, -61.32, 0.90);  object(0x02A5, 345, 0, 178);
+move(5.12, -74.94, 10.20);  object(0x02A5, 340, 0, 177);
+move(-32.66, -120.88, 3.80);  object(0x02A5, 340, 0, 202);
+move(-1.19, -2.80, 3.30);  object(0x02A5, 325, 0, 203);
+move(-78.83, -184.67, -6.40);  object(0x02A5, 350, 0, 204);
+pspawn = 0x08E81290;    
+setint(pspawn,    231);     
+setfloat(pspawn + 4,    -531.27,    912.08,   68.43,    0);     
+pspawn += 0x30; 
+setint(pspawn,    230);     
+setfloat(pspawn + 4,    -530.60,    925.75,    68.43,    0);     
+pspawn += 0x30; 
+setint(pspawn,    212);     
+setfloat(pspawn + 4,    -520.77,    931.36,    68.43,    0);     
+pspawn += 0x30; 
+teleport(-526.43, 916.84, 68.43)
+
+#cheat VC Stunt Ramp's Fixed Version
+//ID: 19124
+//Score: 82
+//Author: psphacker108
+//Category: Environment
+//Description: Rember the mission in VC that had all of thouse Ramp's? vehicle Spawns included! A ATV,PCJ600 And a Angle biker's bike.Well I have duplicated it almost to come to vcs check the pic, I recommend using rocket boost.
+//Image: http://i66.photobucket.com/albums/h257/pspman108/video1-6.gif
+//Time: 28/12/2006 21:55:57
+//Working: Yes
+moveto(-536.20, 1029.09, 66.63);  object(0x1D0F, 0, 0, 340);
+move(4.13, 1.52, 0.00);  object(0x1D0F, 0, 0, 340);
+move(-51.62, 73.16, -15.20);  object(0x1D0F, 0, 0, 298);
+move(2.14, 4.07, 0.00);  object(0x1D0F, 0, 0, 298);
+move(2.14, 4.07, 0.00);  object(0x1D0F, 0, 0, 298);
+move(-49.59, 17.70, -19.70);  object(0x1D0F, 0, 0, 270);
+move(-0.03, 4.60, 0.00);  object(0x1D0F, 0, 0, 270);
+move(-46.67, -7.44, 7.90);  object(0x1D0F, 350, 0, 271);
+move(3.23, -0.36, 1.20);  object(0x1D0F, 350, 0, 271);
+move(0.08, 4.70, 0.00);  object(0x1D0F, 350, 0, 271);
+move(0.08, 4.50, 0.00);  object(0x1D0F, 350, 0, 271);
+move(-42.36, 29.35, -8.00);  object(0x1D0F, 350, 0, 0);
+move(-4.10, 0.01, 0.00);  object(0x1D0F, 350, 0, 0);
+move(-4.50, 0.01, 0.00);  object(0x1D0F, 350, 0, 0);
+move(38.93, 93.49, -8.00);  object(0x028E, 350, 0, 4);
+move(3.99, -0.29, 0.00);  object(0x028E, 350, 0, 4);
+move(-5.73, 53.74, -3.70);  object(0x028E, 350, 0, 357);
+move(-3.89, -0.24, 0.00);  object(0x028E, 350, 0, 357);
+move(79.04, 53.97, 2.40);  object(0x028E, 350, 0, 89);
+move(-0.08, 3.80, 0.00);  object(0x028E, 350, 0, 89);
+move(93.29, -10.63, 2.50);  object(0x028E, 350, 0, 98);
+move(88.46, 2.75, -0.20);  object(0x02A5, 350, 0, 87);
+move(44.40, 10.57, 4.10);  object(0x02A5, 350, 0, 68);
+move(65.86, 24.58, -2.20);  object(0x02A5, 350, 0, 122);
+move(36.44, -30.94, 0.00);  object(0x02A5, 345, 0, 166);
+move(4.44, -61.32, 0.90);  object(0x02A5, 345, 0, 178);
+move(5.12, -74.94, 10.20);  object(0x02A5, 340, 0, 177);
+move(-32.66, -120.88, 3.80);  object(0x02A5, 340, 0, 202);
+move(-1.19, -2.80, 3.30);  object(0x02A5, 325, 0, 203);
+move(-78.83, -184.67, -6.40);  object(0x02A5, 350, 0, 204);
+moveto(-803.44,1152.60,24.45);  object(0x1CAA,0,0,0);
+moveto(-758.20,1243.34,24.69);  object(0x1CAA,0,0,92);
+moveto(-315.73,1085.15,49.00);  object(0x1CA6,90,0,23);
+move(-1.59,-3.75,0.00);  object(0x1CA6,90,0,23);
+move(-1.61,-3.80,0.00);  object(0x1CA6,90,0,23);
+move(-1.62,-3.83,0.00);  object(0x1CA6,90,0,23);
+pspawn = 0x08E81290;
+setint(pspawn,    212);
+setfloat(pspawn + 4,    -520.77,    931.36,    68.43,    0);
+pspawn += 0x30;
+teleport(-526.43, 916.84, 68.43)

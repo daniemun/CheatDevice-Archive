@@ -1,0 +1,52 @@
+#cheat Adjust Camera Distance to 0
+setfloat(0x8BC86C0, 0);
+setfloat(0x8BC8684, 0);
+
+#cheat Adjust Camera Distance to 2
+setfloat(0x8BC86C0, 2);
+setfloat(0x8BC8684, 2);
+
+#cheat Adjust Camera Distance to 4
+setfloat(0x8BC86C0, 4);
+setfloat(0x8BC8684, 4);
+
+#cheat Adjust Camera Distance to 6
+setfloat(0x8BC86C0, 6);
+setfloat(0x8BC8684, 6);
+
+#cheat Adjust Camera Distance to 8
+setfloat(0x8BC86C0, 8);
+setfloat(0x8BC8684, 8);
+
+#cheat Adjust Camera Distance to 10
+setfloat(0x8BC86C0, 10);
+setfloat(0x8BC8684, 10);
+
+#cheat Center Camera Behind You
+setchar(0x8BC8630, 0x03);
+#off
+setchar(0x8BC8630, 0x00);
+
+#cheat GTA Vice City PC Version Vehicle Camera
+if (getint(pplayer + 0x0480) && pcar)
+{
+setchar(0x8BC8630, 0x03);
+}
+
+#cheat Cinematic Camera On Foot
+setchar(0x8BC8636, 0x01);
+#off
+setchar(0x8BC8636, 0x00);
+
+#cheat Look Behind You
+setchar(0x8BC8639, 0x01);
+#off
+setchar(0x8BC8639, 0x00);
+
+#cheat Interior Camera (Close to Vic)
+setchar(0x8BC864F, 0x01);
+#off
+setchar(0x8BC864F, 0x00);
+
+#cheat Weird Zoom In
+setchar(0x8BC8655, 0x01);

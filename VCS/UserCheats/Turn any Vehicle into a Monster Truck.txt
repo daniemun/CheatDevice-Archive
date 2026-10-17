@@ -1,0 +1,183 @@
+#cheat Splitz 6 Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935E198, 1.5);
+
+
+#cheat FBI Rancher Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936E2D8, 1.5);
+
+
+#cheat Gang Rancher Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936E578, 1.5);
+
+
+#cheat Mesa Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936CB38, 1.5);
+
+
+#cheat BF Injection Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936C0B8, 1.5);
+
+
+#cheat Rhino Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936A91A, 1.5);
+
+
+#cheat Sand King Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936A678, 1.5);
+
+
+#cheat Mr. Whoopee Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936A3D8, 1.5);
+
+
+#cheat Yankee Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x936A138, 1.5);
+
+
+#cheat Trashmaster Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9369BF8, 1.5);
+
+
+#cheat Securicar Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9369958, 1.5);
+
+
+#cheat Voodoo Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x93696B8, 1.5);
+
+
+#cheat Mule Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9369418, 1.5);
+
+
+#cheat Coach Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9369178, 1.5);
+
+
+#cheat Benson Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9368ED8, 1.5);
+
+
+#cheat Boxville Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9368C38, 1.5);
+
+
+#cheat Enforcer Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9368998, 1.5);
+
+
+#cheat Stretch Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x93679D8, 1.5);
+
+
+#cheat Ambulance Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9367738, 1.5);
+
+
+#cheat Ammo Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9366778, 1.5);
+
+
+#cheat Flat Bed Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x93664D8, 1.5);
+
+
+#cheat Barracks OL Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9365F98, 1.5);
+
+
+#cheat Walton Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9365CF8, 1.5);
+
+
+#cheat Linerunner Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9365A58, 1.5);
+
+
+#cheat Pony Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9364A98, 1.5);
+
+
+#cheat Patriot Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x93647F8, 1.5);
+
+
+#cheat Domestobot Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9364558, 1.5);
+
+
+#cheat Landstalker monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9363058, 1.5);
+
+
+#cheat Fire Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9362098, 1.5);
+
+
+#cheat Polaris V8 Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9360B98, 1.5);
+
+
+#cheat Caddy Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9360658, 1.5);
+
+
+#cheat Burrito Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x9360118, 1.5);
+
+
+#cheat Bull Dozer Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935FE78, 1.5);
+
+
+#cheat Bobcat Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935FBD8, 1.5);
+
+
+#cheat Perennial Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935F158, 1.5);
+
+
+#cheat Baggage Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935EC18, 1.5);
+
+
+#cheat Admiral Monster Truck
+//Made with Wheel Size Changer by psphacker108
+setfloat(0x935E438, 1.5);

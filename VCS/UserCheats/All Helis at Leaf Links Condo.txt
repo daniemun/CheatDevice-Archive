@@ -1,0 +1,44 @@
+#cheat SPAWN: Hunter
+pspawn = 0x08E81290;
+setint(pspawn, 275);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Maveric
+pspawn = 0x08E81290;
+setint(pspawn, 213);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: VCN Maveric
+pspawn = 0x08E81290;
+setint(pspawn, 260);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Green VCPD Maveric
+pspawn = 0x08E81290;
+setint(pspawn, 279);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);;
+
+#cheat SPAWN: Sea Sparrow
+pspawn = 0x08E81290;
+setint(pspawn, 263);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Sparrow
+pspawn = 0x08E81290;
+setint(pspawn, 262);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Air Ambulance
+pspawn = 0x08E81290;
+setint(pspawn, 189);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Armadillo
+pspawn = 0x08E81290;
+setint(pspawn, 188);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);
+
+#cheat SPAWN: Little Willie
+pspawn = 0x08E81290;
+setint(pspawn, 173);
+setfloat(pspawn + 0x4, 295.37, 269.99, 17.70, 0);

@@ -1,0 +1,187 @@
+#cheat Learjet V2
+static onoff;
+static Drivable;
+ptow = getint(0x0994f460);
+check = getshort(ptow+0x56);
+checkCarID = getshort(pcar+0x56);
+if(pcar&&checkCarID&&checkCarID == 189&&ptow && check && check == 7350 || check
+== 7353 || check == 7392){
+setchar(pcar + 0x49, 81);
+setchar(pcar+0x4A, 0x15);
+setshort(ptow+0x56, 7453);
+Drivable = 1;}
+if(ptow&&check&&check == 7453&&press&CTRL_TRIANGLE){
+setshort(ptow+0x56, 7454);}
+if(ptow&&check&&check == 7454&&press&CTRL_TRIANGLE){
+setshort(ptow+0x56, 7453);}
+if(Drivable == 1){
+setfloat(pcar+0x78, -xstick / 40);
+if (buttons & CTRL_CROSS) {
+boost = 0.5;
+thrust = boost * 0.00333;
+setfloat(pcar + 0x0140, getfloat(pcar + 0x0140) + getfloat(pcar + 0x0010) *
+thrust);
+setfloat(pcar + 0x0144, getfloat(pcar + 0x0144) + getfloat(pcar + 0x0014) *
+thrust);
+setfloat(pcar + 0x0148, getfloat(pcar + 0x0148) + getfloat(pcar + 0x0018) *
+thrust);}
+if(buttons & CTRL_SQUARE){
+setfloat(pcar + 0x140, getfloat(pcar + 0x140)*0.95, getfloat(pcar + 0x144)*0.95
+);}
+if(check&&getshort(ptow + 0x56) > 150&&getshort(ptow + 0x56) == 7453){
+onoff = 1;}
+if(onoff&&getshort(ptow + 0x56) > 150&&getshort(ptow + 0x56) == 7453){
+setfloat(ptow + 0x30, getfloat(pobj + 0x30) + getfloat(pobj + 0x10) * 7.5);
+setfloat(ptow + 0x34, getfloat(pobj + 0x34) + getfloat(pobj + 0x14) * 7.5);
+setfloat(ptow + 0x38, getfloat(pobj + 0x38) + 2.5);
+setfloat(ptow + 0x70, 0, 0, 0);}
+static height;
+if(!height)
+height = getfloat(pcar+0x38);
+static Zdeg;
+if(!Zdeg)
+Zdeg = getfloat(pplayer+0x8d0);
+static st;
+static speed;
+setfloat(pcar+0x1c8, 0x1020);
+setfloat(pcar+0x38, height);
+setfloat(pcar+0x148, 0);
+Zdeg += xstick * 1.5;
+if(ystick){
+Xdeg = getfloat(pcar) * -10 * ystick;
+Ydeg = getfloat(pcar+4) * -10 * ystick;}
+else Ydeg = Xdeg = 0;
+if(buttons & CTRL_CROSS){
+if(speed < 0)
+speed += 0.02;
+if(speed < 0.75)
+speed += 0.01;}
+else
+if(buttons & CTRL_SQUARE){
+if(speed > 0)
+speed -= 0.015;
+if(speed > -0.4)
+speed -= 0.008;}
+else speed *= 0.95;
+if(buttons & CTRL_UP) height+=0.1;
+if(buttons & CTRL_DOWN && !(getchar(pcar+0x4a) & 0x10) ) height-=0.1;
+setfloat(pcar+0x00, cos(Ydeg) * cos(Zdeg));
+setfloat(pcar+0x04, sin(Xdeg) * sin(Ydeg) * cos(Zdeg) - cos(Xdeg) * sin(Zdeg));
+setfloat(pcar+0x08, cos(Xdeg) * sin(Ydeg) * cos(Zdeg) + sin(Xdeg) * sin(Zdeg));
+setfloat(pcar+0x10, cos(Ydeg) * sin(Zdeg));
+setfloat(pcar+0x14, sin(Xdeg) * sin(Ydeg) * cos(Zdeg) + cos(Xdeg) * cos(Zdeg));
+setfloat(pcar+0x18, cos(Xdeg) * sin(Ydeg) * sin(Zdeg) - sin(Xdeg) * cos(Zdeg));
+setfloat(pcar+0x20, -sin(Ydeg));
+setfloat(pcar+0x24, sin(Xdeg) * cos(Ydeg));
+setfloat(pcar+0x28, cos(Xdeg) * cos(Ydeg));
+setfloat(pcar+0x140, -getfloat(pcar+4)*speed);
+setfloat(pcar+0x144, getfloat(pcar)*speed);}
+if(!(getchar(pcar+0x4a) & 0x10) || ystick > 0) height += ystick * speed / 7;
+if(!pcar) Xdeg = Ydeg = Zdeg = height = 0;
+#off
+setchar(pcar + 0x49, 82);
+setchar(pcar+0x4A, 0x18);
+Xdeg = Ydeg = Zdeg = height = 0;
+
+#cheat Infinite Rampage Time/Kills
+setchar(0x8BB4404, 1);
+sethex(0x8BB4420, FF);
+sethex(0x8BB4418, FF);
+sethex(0x8BB441C, FF);
+
+#cheat Pause/Resume Rampages (L+Left/Right)
+if(buttons & CTRL_LTRIGGER && press & CTRL_LEFT)
+setchar(0x8BB4404, 1);
+if(buttons & CTRL_LTRIGGER && press & CTRL_RIGHT)
+setchar(0x8BB4404, 0);
+
+#cheat Infinite Time in Turn on,tune in,bug out
+setchar(0x9F6D934, 0);
+
+#cheat Infinite Time in Burning Bridges
+setchar(0x9F6DD18, 0);
+
+#cheat Spawn Air Ambulance + Teleport to it
+pspawn = 0x08E81290;
+setint(pspawn, 189);
+setfloat(pspawn + 4, -1077.40, 312.63, 11.26, 270);
+pspawn += 0x30;
+teleport(-1054.93, 319.51, 11.26)
+
+#cheat Learjet
+static onoff;
+static Drivable;
+ptow = getint(0x0994f460);
+check = getshort(ptow+0x56);
+checkCarID = getshort(pcar+0x56);
+if(pcar&&checkCarID&&checkCarID == 189&&ptow && check && check == 7350 || check == 7353 || check == 7392){
+setchar(pcar + 0x49, 81);
+setchar(pcar+0x4A, 0x15);
+Drivable = 1;
+setshort(ptow+0x56, 7453);}
+if(Drivable == 1){
+setfloat(pcar+0x78, -xstick / 40);
+if (buttons & CTRL_CROSS) {
+boost = 0.5;
+thrust = boost * 0.00333;
+setfloat(pcar + 0x0140, getfloat(pcar + 0x0140) + getfloat(pcar + 0x0010) * thrust);
+setfloat(pcar + 0x0144, getfloat(pcar + 0x0144) + getfloat(pcar + 0x0014) * thrust);
+setfloat(pcar + 0x0148, getfloat(pcar + 0x0148) + getfloat(pcar + 0x0018) * thrust);}
+if(buttons & CTRL_SQUARE){
+setfloat(pcar + 0x140, getfloat(pcar + 0x140)*0.95, getfloat(pcar + 0x144)*0.95 );}
+if(check&&getshort(ptow + 0x56) > 150&&getshort(ptow + 0x56) == 7453){
+onoff = 1;}
+if(onoff&&getshort(ptow + 0x56) > 150&&getshort(ptow + 0x56) == 7453){
+setfloat(ptow + 0x30, getfloat(pobj + 0x30) + getfloat(pobj + 0x10) * 7.5);
+setfloat(ptow + 0x34, getfloat(pobj + 0x34) + getfloat(pobj + 0x14) * 7.5);
+setfloat(ptow + 0x38, getfloat(pobj + 0x38) + 2.5);
+setfloat(ptow + 0x70, 0, 0, 0);}
+static height;
+if(!height)
+height = getfloat(pcar+0x38);
+static Zdeg;
+if(!Zdeg)
+Zdeg = getfloat(pplayer+0x8d0);
+static st;
+static speed;
+setfloat(pcar+0x1c8, 0x1020);
+setfloat(pcar+0x38, height);
+setfloat(pcar+0x148, 0);
+Zdeg += xstick * 1.5;
+if(ystick){
+Xdeg = getfloat(pcar) * -10 * ystick;
+Ydeg = getfloat(pcar+4) * -10 * ystick;}
+else Ydeg = Xdeg = 0;
+if(buttons & CTRL_CROSS){
+if(speed < 0)
+speed += 0.02;
+if(speed < 0.75)
+speed += 0.01;}
+else
+if(buttons & CTRL_SQUARE){
+if(speed > 0)
+speed -= 0.015;
+if(speed > -0.4)
+speed -= 0.008;}
+else speed *= 0.95;
+if(buttons & CTRL_UP) height+=0.1;
+if(buttons & CTRL_DOWN && !(getchar(pcar+0x4a) & 0x10) ) height-=0.1;
+setfloat(pcar+0x00, cos(Ydeg) * cos(Zdeg));
+setfloat(pcar+0x04, sin(Xdeg) * sin(Ydeg) * cos(Zdeg) - cos(Xdeg) * sin(Zdeg));
+setfloat(pcar+0x08, cos(Xdeg) * sin(Ydeg) * cos(Zdeg) + sin(Xdeg) * sin(Zdeg));
+setfloat(pcar+0x10, cos(Ydeg) * sin(Zdeg));
+setfloat(pcar+0x14, sin(Xdeg) * sin(Ydeg) * cos(Zdeg) + cos(Xdeg) * cos(Zdeg));
+setfloat(pcar+0x18, cos(Xdeg) * sin(Ydeg) * sin(Zdeg) - sin(Xdeg) * cos(Zdeg));
+setfloat(pcar+0x20, -sin(Ydeg));
+setfloat(pcar+0x24, sin(Xdeg) * cos(Ydeg));
+setfloat(pcar+0x28, cos(Xdeg) * cos(Ydeg));
+setfloat(pcar+0x140, -getfloat(pcar+4)*speed);
+setfloat(pcar+0x144, getfloat(pcar)*speed);}
+if(!(getchar(pcar+0x4a) & 0x10) || ystick > 0) height += ystick * speed / 7;
+if(!pcar) Xdeg = Ydeg = Zdeg = height = 0;
+#off
+setchar(pcar + 0x49, 82);
+setchar(pcar+0x4A, 0x18);
+Xdeg = Ydeg = Zdeg = height = 0;
+
+

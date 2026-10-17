@@ -1,0 +1,329 @@
+#cheat 6atv
+setint(0x08C739B0,  170);
+
+#cheat admiral
+setint(0x08C739B0,  171);
+
+#cheat cheetah
+setint(0x08C739B0,  172);
+
+#cheat autogyro
+setint(0x08C739B0,  173);
+
+#cheat baggage
+setint(0x08C739B0,  174);
+
+#cheat banshee
+setint(0x08C739B0,  175);
+
+#cheat peren
+setint(0x08C739B0,  176);
+
+#cheat blistac
+setint(0x08C739B0,  177);
+
+#cheat bmxboy
+setint(0x08C739B0,  178);
+
+#cheat bmxgirl
+setint(0x08C739B0,  179);
+
+#cheat bobcat
+setint(0x08C739B0,  180);
+
+#cheat bulldoze
+setint(0x08C739B0,  181);
+
+#cheat burrito
+setint(0x08C739B0,  182);
+
+#cheat cabbie
+setint(0x08C739B0,  183);
+
+#cheat caddy
+setint(0x08C739B0,  184);
+
+#cheat speeder2
+setint(0x08C739B0,  185);
+
+#cheat pimp
+setint(0x08C739B0,  186);
+
+#cheat deluxo
+setint(0x08C739B0,  187);
+
+#cheat huey
+setint(0x08C739B0,  188);
+
+#cheat hueyhosp
+setint(0x08C739B0,  189);
+
+#cheat electrag
+setint(0x08C739B0,  190);
+
+#cheat electrap
+setint(0x08C739B0,  191);
+
+#cheat esperant
+setint(0x08C739B0,  192);
+
+#cheat fbicar
+setint(0x08C739B0,  193);
+
+#cheat firetruk
+setint(0x08C739B0,  194);
+
+#cheat glendale
+setint(0x08C739B0,  195);
+
+#cheat greenwoo
+setint(0x08C739B0,  196);
+
+#cheat hermes
+setint(0x08C739B0,  197);
+
+#cheat hover
+setint(0x08C739B0,  198);
+
+#cheat idaho
+setint(0x08C739B0,  199);
+
+#cheat landstal
+setint(0x08C739B0,  200);
+
+#cheat manana
+setint(0x08C739B0,  201);
+
+#cheat mop50
+setint(0x08C739B0,  202);
+
+#cheat oceanic
+setint(0x08C739B0,  203);
+
+#cheat vicechee
+setint(0x08C739B0,  204);
+
+#cheat sanchez
+setint(0x08C739B0,  205);
+
+#cheat stallion
+setint(0x08C739B0,  206);
+
+#cheat policem
+setint(0x08C739B0,  207);
+
+#cheat bobo
+setint(0x08C739B0,  208);
+
+#cheat patriot
+setint(0x08C739B0,  209);
+
+#cheat pony
+setint(0x08C739B0,  210);
+
+#cheat sentinel
+setint(0x08C739B0,  211);
+
+#cheat pcj600
+setint(0x08C739B0,  212);
+
+#cheat maverick
+setint(0x08C739B0,  213);
+
+#cheat reefer
+setint(0x08C739B0,  214);
+
+#cheat speeder
+setint(0x08C739B0,  215);
+
+#cheat linerun
+setint(0x08C739B0,  216);
+
+#cheat walton
+setint(0x08C739B0,  217);
+
+#cheat barracks
+setint(0x08C739B0,  218);
+
+#cheat predator
+setint(0x08C739B0,  219);
+
+#cheat flatbed
+setint(0x08C739B0,  220);
+
+#cheat ammotruck
+setint(0x08C739B0,  221);
+
+#cheat biplane
+setint(0x08C739B0,  222);
+
+#cheat moonbeam
+setint(0x08C739B0,  223);
+
+#cheat rumpo
+setint(0x08C739B0,  224);
+
+#cheat yola
+setint(0x08C739B0,  225);
+
+#cheat taxi
+setint(0x08C739B0,  226);
+
+#cheat ambulan
+setint(0x08C739B0,  227);
+
+#cheat stretch
+setint(0x08C739B0,  228);
+
+#cheat faggio
+setint(0x08C739B0,  229);
+
+#cheat quad
+setint(0x08C739B0,  230);
+
+#cheat angel
+setint(0x08C739B0,  231);
+
+#cheat freeway
+setint(0x08C739B0,  232);
+
+#cheat jetski
+setint(0x08C739B0,  233);
+
+#cheat enforce
+setint(0x08C739B0,  234);
+
+#cheat boxvil
+setint(0x08C739B0,  235);
+
+#cheat benson
+setint(0x08C739B0,  236);
+
+#cheat coach
+setint(0x08C739B0,  237);
+
+#cheat mule
+setint(0x08C739B0,  238);
+
+#cheat voodoo
+setint(0x08C739B0,  239);
+
+#cheat securica
+setint(0x08C739B0,  240);
+
+#cheat trash
+setint(0x08C739B0,  241);
+
+#cheat topfun
+setint(0x08C739B0,  242);
+
+#cheat yankee
+setint(0x08C739B0,  243);
+
+#cheat mrwhoo
+setint(0x08C739B0,  244);
+
+#cheat sandking
+setint(0x08C739B0,  245);
+
+#cheat rhino
+setint(0x08C739B0,  246);
+
+#cheat dinghy
+setint(0x08C739B0,  247);
+
+#cheat marquis
+setint(0x08C739B0,  248);
+
+#cheat rio
+setint(0x08C739B0,  249);
+
+#cheat tropic
+setint(0x08C739B0,  250);
+
+#cheat forklift
+setint(0x08C739B0,  251);
+
+#cheat streetfi
+setint(0x08C739B0,  252);
+
+#cheat virgo
+setint(0x08C739B0,  253);
+
+#cheat stinger
+setint(0x08C739B0,  254);
+
+#cheat bfinject
+setint(0x08C739B0,  255);
+
+#cheat phoenix
+setint(0x08C739B0,  256);
+
+#cheat squallo
+setint(0x08C739B0,  257);
+
+#cheat jetmax
+setint(0x08C739B0,  258);
+
+#cheat mesa
+setint(0x08C739B0,  259);
+
+#cheat vcnmav
+setint(0x08C739B0,  260);
+
+#cheat polmav
+setint(0x08C739B0,  261);
+
+#cheat sparrow
+setint(0x08C739B0,  262);
+
+#cheat seasparrow
+setint(0x08C739B0,  263);
+
+#cheat scarab
+setint(0x08C739B0,  264);
+
+#cheat chollo
+setint(0x08C739B0,  265);
+
+#cheat comet
+setint(0x08C739B0,  266);
+
+#cheat cuban
+setint(0x08C739B0,  267);
+
+#cheat fbiran
+setint(0x08C739B0,  268);
+
+#cheat gangbur
+setint(0x08C739B0,  269);
+
+#cheat infernus
+setint(0x08C739B0,  270);
+
+#cheat regina
+setint(0x08C739B0,  271);
+
+#cheat sabre
+setint(0x08C739B0,  272);
+
+#cheat sabretb
+setint(0x08C739B0,  273);
+
+#cheat sentxs
+setint(0x08C739B0,  274);
+
+#cheat hunter
+setint(0x08C739B0,  275);
+
+#cheat washin
+setint(0x08C739B0,  276);
+
+#cheat coastguard
+setint(0x08C739B0,  277);
+
+#cheat skimmer
+setint(0x08C739B0,  278);
+
+#cheat chopper
+setint(0x08C739B0,  279);

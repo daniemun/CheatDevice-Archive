@@ -1,0 +1,659 @@
+ #cheat 6 ATV at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 170);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Admiral at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 171);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Cheetah at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 172);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Autogyro at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 173);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Baggage at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 174);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Banshee at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 175);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Peren at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 176);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Blistac at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 177);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat BMX Boy at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 178);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat BMX Girl at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 179);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Bobcat at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 180);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Bull Dozer at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 181);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Burrito at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 182);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Cabbie at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 183);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat caddy at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 184);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Speeder 2 at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 185);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Pimp at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 186);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Deluxo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 187);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Huey at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 188);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Huey Hosp at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 189);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Elec Trag at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 190);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Elec Trap at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 191);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Esperant at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 192);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat FBI Car at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 193);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Fire Truck at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 194);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Glen Dale at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 195);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Green Woo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 196);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Hermes at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 197);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Hover Car at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 198);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Idaho at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 199);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Land Stal at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 200);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Manana at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 201);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Mop 50 at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 202);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Oceanic at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 203);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Vice Chee at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 204);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sanchez at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 205);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Stallion at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 206);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Police M at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 207);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Bobo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 208);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Patriot at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 209);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Pony at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 210);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sentinel at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 211);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat PCJ 600 at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 212);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Maverick at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 213);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Reefer at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 214);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Speeder at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 215);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Linerun at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 216);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Walton at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 217);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Barracks at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 218);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Predator at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 219);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Faltbed at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 220);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Ammo Truck at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 221);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Bi Plane at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 222);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Moon Beam at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 223);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Rumpo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 224);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Yola Crash at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 225);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Taxi at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 226);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Ambulance at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 227);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Stretch at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 228);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Faggio at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 229);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Quad at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 230);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Angel at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 231);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Freeway at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 232);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Jet Ski at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 233);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Enforce at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 234);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Box Vil at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 235);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Benson at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 236);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Coach at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 237);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Mule at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 238);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Voodoo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 239);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Securica at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 240);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Trash at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 241);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Top Fun at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 242);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Yankee at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 243);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Mr Whoo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 244);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sand King at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 245);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Rhino at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 246);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Dinghy at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 247);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Marquis at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 248);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Rio at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 249);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Tropic at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 250);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Forklift at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 251);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Street Fi at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 252);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Virgo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 253);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Stinger at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 254);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat BF Injection at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 255);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Pheonix at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 256);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Squalo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 257);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Jetmax at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 258);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Mesa at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 259);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Vcn Mav at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 260);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Police Mav at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 261);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sparrow at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 262);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Seasparrow at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 263);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Scarab at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 264);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Chollo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 265);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Comet at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 266);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Cuban at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 267);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat FBI Ran at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 268);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Gang Bur at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 269);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Infernus at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 270);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Regina at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 271);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sabre at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 272);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sabre Turbo at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 273);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Sentxs at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 274);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Hunter at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 275);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Washington at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 276);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Coast Guard at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 277);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Skimmer Crash at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 278);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);
+
+ #cheat Chopper at savehouse 2
+//made with VCS Car Spawner by DDM
+pspawn = 0x08E81290;
+setint(pspawn, 279);
+setfloat(pspawn + 0x4, -1077.40, 312.63, 11.26, 0);

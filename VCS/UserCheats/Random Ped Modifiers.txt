@@ -1,0 +1,174 @@
+#cheat Leaf Links Lovers
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x17);
+}
+
+#cheat Lets get ready to Fistfight !
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x8B4, 11);
+}
+
+#cheat Jogging Blokes
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x31);
+}
+
+#cheat Look at that nice Car !
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x17);
+setchar(yourped+0x894, 0x12);
+setint(yourped+0x890, pplayer);
+}
+
+#cheat Screw this ugly Car !
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x16);
+setint(yourped+0x890, pcar);
+}
+
+#cheat Hating Peds
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x578, 0x01);
+setchar(yourped+0x789, 0x00);
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x8);
+setint(yourped+0x890, pplayer);
+}
+
+#cheat Loving Peds
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0xC);
+setint(yourped+0x890, pplayer);
+}
+
+#cheat Taxi Taxi Peds
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x20);
+}
+
+#cheat Handsup/Backup Peds
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x8B4, 0x40);
+}
+
+#cheat Carstealers
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x894, 0x17);
+setchar(yourped+0x894, 0x12);
+}
+
+#cheat Phoning Peds
+static yourped;
+setchar(0x08BA1D70, 0x090);
+setchar(0x08BA1D71, 0x05C);
+setchar(0x08BA1D72, 0x08C);
+setchar(0x08BA1D73, 0x09);
+yourped = getint(0x08BA1D70);
+if(!getint(yourped+0x480))
+{
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x87c, 0x1e);
+setchar(yourped+0x8B4, 0x24);
+setchar(yourped+0x674, 0x24);
+setchar(yourped+0x789, 0x09);
+}

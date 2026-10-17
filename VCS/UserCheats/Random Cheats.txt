@@ -1,0 +1,211 @@
+#cheat Enable Leaf Links Traffic
+setchar(0x08BB329C, 0x00);
+
+#cheat Example Mission
+setchar(0x08BB329C, 0xFF);
+setchar(0x8bb3e00, 6);
+setchar(0x8bb3df8, 6);
+setchar(0x8bb458c, 6);
+setchar(0x09f69054, 1);
+setchar(0x08be3a20, 1);
+setfloat(0x08be3a30, -1007.98,1015.59,9.96,90);
+moveto(-1007.98,1015.59,9.20); object(0x01BF,0,0,212);
+pped = getint(0x08BA1D70);
+static yourped;
+if(pped&&!yourped)
+{
+yourped=pped;
+}
+if(yourped)
+{
+setchar(yourped+0x63C, 0x22);
+setchar(yourped+0x87c, 0x1e);
+setint(yourped+0x648, 1000);
+setchar(yourped+0x789, 0x7);
+}
+if(buttons & CTRL_RTRIGGER && press & CTRL_LTRIGGER)
+{
+setfloat(pplayer+0x30, -1018.23);
+setfloat(pplayer+0x34, 1013.77);
+setfloat(pplayer+0x38, 8.87);
+setfloat(yourped+0x30, -1011.22);
+setfloat(yourped+0x34, 1016.20);
+setfloat(yourped+0x38, 8.87);
+setchar(yourped+0x894, 0x8);
+setint(yourped+0x890, pplayer);
+}
+
+#cheat Infinite Rampage Time/Kills
+setchar(0x8BB4404, 1);
+sethex(0x8BB4420, FF);
+sethex(0x8BB4418, FF);
+sethex(0x8BB441C, FF);
+
+#cheat Pause/Resume Rampages (L+Left/Right)
+if(buttons & CTRL_LTRIGGER && press & CTRL_LEFT)
+setchar(0x8BB4404, 1);
+if(buttons & CTRL_LTRIGGER && press & CTRL_RIGHT)
+setchar(0x8BB4404, 0);
+
+#cheat Infinite Time in Turn on,tune in,bug out
+setchar(0x9F6D934, 0);
+
+#cheat Infinite Time in Burning Bridges
+setchar(0x9F6DD18, 0);
+
+#cheat View peds 0x8B4 value
+p = getint(0x8BA1D70);
+if (p)
+{
+   n = getshort(p + 0x8B4);
+   setint(0x8bde55c, n, n);
+}
+
+#cheat View peds 0x894 value
+p = getint(0x8BA1D70);
+if (p)
+{
+   n = getshort(p + 0x894);
+   setint(0x8bde55c, n, n);
+}
+
+#cheat UP=Kill DOWN=REMOVE LEFT=BEACH RIGHT=GOLF
+pped = getint(0x08BA1D70);
+if(buttons & CTRL_RTRIGGER&&press & CTRL_UP)
+if(pped){
+   setchar(pped+0x8B4, 0x44);
+   setint(pped+0x890, pplayer);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_DOWN)
+if(pped){
+   setchar(pped+0x8B4, 0x37);
+   setint(pped+0x890, pplayer);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_LEFT)
+{
+setfloat(pplayer + 0x30, 488.76);
+setfloat(pplayer + 0x34, -1002.93);
+setfloat(pplayer + 0x38, 11.07);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_RIGHT)
+{
+setfloat(pplayer + 0x30, 99.73);
+setfloat(pplayer + 0x34, 256.17);
+setfloat(pplayer + 0x38, 21.78);
+}
+
+#cheat UP=Kill DOWN=REMOVE LEFT=BEACH RIGHT=CARPARK
+pped = getint(0x08BA1D70);
+if(buttons & CTRL_RTRIGGER&&press & CTRL_UP)
+if(pped){
+   setchar(pped+0x8B4, 0x44);
+   setint(pped+0x890, pplayer);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_DOWN)
+if(pped){
+   setchar(pped+0x8B4, 0x37);
+   setint(pped+0x890, pplayer);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_LEFT)
+{
+setfloat(pplayer + 0x30, 488.76);
+setfloat(pplayer + 0x34, -1002.93);
+setfloat(pplayer + 0x38, 11.07);
+}
+if(buttons & CTRL_RTRIGGER&&press & CTRL_RIGHT)
+{
+setfloat(pplayer + 0x30, -1162.02);
+setfloat(pplayer + 0x34, -971.78);
+setfloat(pplayer + 0x38, 14.87);
+}
+
+#cheat Get Rocket Launcher
+sethex(pplayer+0x648, FFFFFFFFFF);
+setchar(pplayer+0xCB8, 0x07);
+setchar(pplayer+0x63C, 0x20);
+
+#cheat Teargas Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30)
+{
+setchar(pbomb, 0x10);
+}
+
+#cheat Molotov Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30)
+{
+setchar(pbomb, 0x11);
+}
+
+#cheat Normal Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30)
+{
+setchar(pbomb, 0x12);
+}
+
+#cheat Remote Explosive Rockets
+pexp = 0x08BF9E50;
+static det;
+if(getchar(pexp + 0x0C))
+{
+setchar(pexp + 0x0C, 0x0);
+det = 1;
+}
+if(det && buttons & CTRL_CROSS)
+{
+setchar(pexp + 0x0C, 0x1);
+det = 0;
+}
+
+#cheat Objectspawner
+setchar(0x8BAEDB8, '%', 'd', 0);
+setchar(0x8BAEDC0, '%', 'd', 0);
+static start;
+if (!start)
+{
+pobject = 0;
+start = 1;
+money = getint(0x08bde55c);
+}
+setint(0x08bde55c, money, money);
+if (buttons & CTRL_LTRIGGER)
+{
+setint(0x08bde55c, pobject, pobject);
+if (pressfast & CTRL_LEFT)
+pobject = pobject-1;
+if (pressfast & CTRL_RIGHT)
+pobject = pobject+1;
+}
+if(buttons & CTRL_LTRIGGER && press & CTRL_CROSS)
+{
+moveto(getfloat(pplayer+0x30) + cos(7.2), getfloat(pplayer+0x34)   + sin(7.2), 
+getfloat(pplayer+0x38));  object( pobject,  0,  0,  -7.2 + 90);
+}
+
+#cheat Adrenaline Pill Spawn
+setfloat(0x991C280+0x30,-1077.40,312.63,11.26);
+setshort(0x991C280+0x56,0x1D3);
+off()
+
+#cheat Rocket Spawn
+setfloat(0x991C280+0x30,-1077.40,312.63,11.26);
+setshort(0x991C280+0x56,0x159);
+off()
+
+#cheat Teargas Spawn
+setfloat(0x991C280+0x30,-1077.40,312.63,11.26);
+setshort(0x991C280+0x56,0x157);
+off()
+
+#cheat Landmines Spawn
+setfloat(0x991C280+0x30,-1077.40,312.63,11.26);
+setshort(0x991C280+0x56,0x170);
+off()
+
+#cheat Infinate Health
+setchar(pplayer+0x4e4, 0xFFFFF);
+
+#cheat Press LTRIGGER+SQUARE to get Full Health
+if(buttons & CTRL_LTRIGGER && press & CTRL_SQUARE)
+{
+setfloat(pplayer+0x4e4, 10000);
+}

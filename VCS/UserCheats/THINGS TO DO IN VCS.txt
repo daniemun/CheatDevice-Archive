@@ -1,0 +1,22 @@
+#cheat Teleport to Downtown Taco Stand
+teleport(-760.99,1342.26,11.86);
+
+#cheat Taco Stand Downtown
+moveto(-760.99,1342.26,11.86);  object(0x1CB1,0,0,358);
+move(5.78,-15.36,0.10);  object(0x1CB8,0,0,81);
+move(-1.71,-0.27,0.00);  object(0x1CB8,0,0,81);
+move(-0.44,0.94,0.00);  object(0x1CB7,0,0,81);
+move(1.64,-0.86,0.00);  object(0x1CB1,0,0,81);
+move(-0.73,-0.11,0.00);  object(0x1CB1,0,0,81);
+move(0.22,0.89,0.70);  object(0x1C91,0,0,169);
+move(1.68,-0.24,-2.00);  object(0x0259,0,0,302);
+move(-1.73,0.48,0.00);  object(0x1CF7,0,0,351);
+move(-0.97,0.92,1.40);  object(0x1CB8,0,0,261);
+move(0.50,0.09,0.00);  object(0x1CB8,0,0,262);
+move(0.54,0.11,-0.00);  object(0x1CB8,0,0,80);
+move(0.57,0.13,0.00);  object(0x1CB8,0,0,71);
+move(0.54,-1.16,0.00);  object(0x1CB7,0,0,262);
+move(-0.05,0.21,0.00);  object(0x1CB7,0,0,262);
+move(-1.29,0.65,1.10);  object(0x1CB8,0,90,171);
+move(0.09,-0.53,0.00);  object(0x1CB8,0,90,171);
+

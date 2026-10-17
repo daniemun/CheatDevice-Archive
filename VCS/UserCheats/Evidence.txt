@@ -1,0 +1,12 @@
+#cheat Evidence
+static state;
+setint(pplayer+0x680, 0x00ffffff);
+setchar(pplayer+0x674, 0x26);
+camera=getchar(pplayer+0x789);
+if(buttons&CTRL_RTRIGGER&&camera == 0x9&&presslow & CTRL_CIRCLE ){
+state = 1;}
+if(state == 1){
+setchar(0x08E93604, 0x1);
+setshort(0x08E92FFC, 'T','a','k','e',' ','t','h','e',' ','e','v','i','d','e','n','c','e',' ','t','o',' ','t','h','e',' ','P','r','i','n','t','w','o','r','k','s', '!');
+setshort(0x08E931FC, 'T','a','k','e',' ','t','h','e',' ','e','v','i','d','e','n','c','e',' ','t','o',' ','t','h','e',' ','P','r','i','n','t','w','o','r','k','s', '!');
+setshort(0x08E933FC, 'T','a','k','e',' ','t','h','e',' ','e','v','i','d','e','n','c','e',' ','t','o',' ','t','h','e',' ','P','r','i','n','t','w','o','r','k','s', '!');}

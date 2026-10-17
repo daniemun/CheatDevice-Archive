@@ -1,0 +1,4 @@
+#cheat The fastest Boat
+pspawn = 0x08E81290;
+setint(pspawn, 185);
+setfloat(pspawn + 0x4, -595.83, -1508.85, 6.50, 270);

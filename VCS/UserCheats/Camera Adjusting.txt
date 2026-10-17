@@ -1,0 +1,298 @@
+#cheat Rotate the Car Camera
+if(pcar)
+{
+setchar(pplayer + 0x08B4, 0x32);
+}
+#off
+setchar(pplayer + 0x08B4, 0x33);
+
+#cheat Rotate the Car Camera & Passenger Mode
+if(buttons & CTRL_TRIANGLE && !pcar)
+{
+setchar(pplayer + 0x0894, 0x11);
+setchar(pplayer + 0x08B4, 0x18);
+}
+if(pcar)
+{
+setchar(pplayer + 0x08B4, 0x32);
+}
+#off
+setchar(pplayer + 0x08B4, 0x33);
+
+#cheat Adjust Camera Distance to 0
+setfloat(0x8BC86C0, 0);
+setfloat(0x8BC8684, 0);
+
+#cheat Adjust Camera Distance to 2
+setfloat(0x8BC86C0, 2);
+setfloat(0x8BC8684, 2);
+
+#cheat Adjust Camera Distance to 4
+setfloat(0x8BC86C0, 4);
+setfloat(0x8BC8684, 4);
+
+#cheat Adjust Camera Distance to 6
+setfloat(0x8BC86C0, 6);
+setfloat(0x8BC8684, 6);
+
+#cheat Adjust Camera Distance to 8
+setfloat(0x8BC86C0, 8);
+setfloat(0x8BC8684, 8);
+
+#cheat Adjust Camera Distance to 10
+setfloat(0x8BC86C0, 10);
+setfloat(0x8BC8684, 10);
+
+#cheat Center Camera Behind You
+setchar(0x8BC8610, 0x01);
+#off
+setchar(0x8BC8610, 0x00);
+
+#cheat PC Version Vehicle Camera
+if (getint(pplayer + 0x0480) && pcar)
+  {
+    setchar(0x8BC8610, 0x01);
+  }
+
+#cheat Center Camera Behind You 2
+setchar(0x8BC8630, 0x03);
+#off
+setchar(0x8BC8630, 0x00);
+
+#cheat PC Version Vehicle Camera 2
+if (getint(pplayer + 0x0480) && pcar)
+  {
+    setchar(0x8BC8630, 0x03);
+  }
+
+#cheat Cinematic Camera On Foot
+setchar(0x8BC8636, 0x01);
+#off
+setchar(0x8BC8636, 0x00);
+
+#cheat Center Camera Infront of Vic
+setchar(0x8BC8639, 0x01);
+#off
+setchar(0x8BC8639, 0x00);
+
+#cheat Center Camera Behind You 3
+setchar(0x8BC8649, 0x01);
+#off
+setchar(0x8BC8649, 0x00);
+
+#cheat PC Version Vehicle Camera 3
+if (getint(pplayer + 0x0480) && pcar)
+  {
+setchar(0x8BC8649, 0x01);
+  }
+
+#cheat Interior Camera (Close to Vic)
+setchar(0x8BC864F, 0x01);
+#off
+setchar(0x8BC864F, 0x00);
+
+#cheat No Interior Camera
+setchar(0x8BC864F, 0x00);
+
+#cheat Zoom In
+setchar(0x8BC8655, 0x01);
+
+#cheat PC Version Vehicle Camera Improved version
+if (getint(pplayer + 0x0480) && pcar && !buttons & CTRL_SQUARE)
+  {
+    setchar(0x8BC8630, 0x03);
+  }
+
+#cheat Free Camera 2
+if(press & CTRL_TRIANGLE && press & CTRL_LEFT)
+{
+setfloat(0x8BC7FC4, -2);
+setchar(0x09f69054, 1);
+setchar(0x098B52F4, 32);
+playerx = getfloat(pplayer + 0x030);
+playery = getfloat(pplayer + 0x034);
+playerz = getfloat(pplayer + 0x038);
+direction1 = getchar(pplayer+0x10);
+direction2 = getchar(pplayer + 0x18);
+direction3 = getchar(pplayer + 0x32);
+direction4 = getchar(pplayer + 0x15);
+direction5 = getchar(pplayer + 0x3c);
+distance = getfloat(0x8bc86c0);
+setchar(pplayer + 0x10, direction1);
+setchar(pplayer + 0x18, direction2);
+setchar(pplayer + 0x32, direction3);
+setchar(pplayer + 0x15, direction4);
+setchar(pplayer + 0x3c, direction5);
+setfloat(0x8bc86c0, distance);
+if(buttons & CTRL_LTRIGGER && xstick < -0.5)
+{
+direction1 += 4;
+}
+if(buttons & CTRL_LTRIGGER && xstick > 0.5)
+{
+direction1 -= 4;
+}
+if(buttons & CTRL_LTRIGGER && ystick < -0.5)
+{
+direction2 += 4;
+}
+if(buttons & CTRL_LTRIGGER && ystick > 0.5)
+{
+direction2 -= 4;
+}
+if(buttons & CTRL_LTRIGGER && buttons & CTRL_LEFT)
+{
+distance += 4;
+}
+if(buttons & CTRL_LTRIGGER && buttons & CTRL_RIGHT)
+{
+distance -= 4;
+}
+if(buttons & CTRL_RTRIGGER && xstick < -0.5)
+{
+direction3 += 4;
+}
+if(buttons & CTRL_RTRIGGER && xstick > 0.5)
+{
+direction3 -= 4;
+}
+if(buttons & CTRL_RTRIGGER && ystick < -0.5)
+{
+direction4 += 4;
+}
+if(buttons & CTRL_RTRIGGER && ystick > 0.5)
+{
+direction4 -= 4;
+}
+if(buttons & CTRL_RTRIGGER && buttons & CTRL_UP)
+{
+direction5 += 4;
+}
+if(buttons & CTRL_RTRIGGER && buttons & CTRL_DOWN)
+{
+direction5 -= 4;
+}
+}
+if(press & CTRL_TRIANGLE && press & CTRL_RIGHT)
+{
+setchar(0x09f69054, 0);
+setchar(0x098B52F4, 1);
+setfloat(pplayer + 0x30, playerx);
+setfloat(pplayer + 0x34, playery);
+setfloat(pplayer + 0x38, playerz);
+}
+
+#cheat Free Camera
+if(press & CTRL_TRIANGLE && press & CTRL_LEFT)
+{
+setchar(0x09f69054, 1);
+setchar(0x098B52F4, 32);
+playerx = getfloat(pplayer + 0x030);
+playery = getfloat(pplayer + 0x034);
+playerz = getfloat(pplayer + 0x038);
+static direction1;
+static direction2;
+static direction3;
+static direction4;
+static direction5;
+static distance;
+direction1 = getchar(pplayer+0x10);
+direction2 = getchar(pplayer + 0x18);
+direction3 = getchar(pplayer + 0x32);
+direction4 = getchar(pplayer + 0x15);
+direction5 = getchar(pplayer + 0x3c);
+distance = getfloat(0x8bc86c0);
+setchar(pplayer + 0x10, direction1);
+setchar(pplayer + 0x18, direction2);
+setchar(pplayer + 0x32, direction3);
+setchar(pplayer + 0x15, direction4);
+setchar(pplayer + 0x3c, direction5);
+setfloat(0x8bc86c0, distance);
+if(buttons & CTRL_LTRIGGER && xstick < -0.5) direction1 += 4;
+if(buttons & CTRL_LTRIGGER && xstick > 0.5) direction1 -= 4;
+if(buttons & CTRL_LTRIGGER && ystick < -0.5) direction2 += 4;
+if(buttons & CTRL_LTRIGGER && ystick > 0.5) direction2 -= 4;
+if(buttons & CTRL_LTRIGGER && buttons & CTRL_LEFT) distance += 4;
+if(buttons & CTRL_LTRIGGER && buttons & CTRL_RIGHT) distance -= 4;
+if(buttons & CTRL_RTRIGGER && xstick < -0.5) direction3 += 4;
+if(buttons & CTRL_RTRIGGER && xstick > 0.5) direction3 -= 4;
+if(buttons & CTRL_RTRIGGER && ystick < -0.5) direction4 += 4;
+if(buttons & CTRL_RTRIGGER && ystick > 0.5) direction4 -= 4;
+if(buttons & CTRL_RTRIGGER && buttons & CTRL_UP) direction5 += 4;
+if(buttons & CTRL_RTRIGGER && buttons & CTRL_DOWN) direction5 -= 4;
+}
+if(press & CTRL_TRIANGLE && press & CTRL_RIGHT)
+{
+setchar(0x09f69054, 0);
+setchar(0x098B52F4, 1e);
+setfloat(pplayer + 0x30, playerx);
+setfloat(pplayer + 0x34, playery);
+setfloat(pplayer + 0x38, playerz);
+}
+
+#cheat Free Camera V2
+if(press & CTRL_TRIANGLE && press & CTRL_LEFT)
+{
+playerx = getfloat(pplayer + 0x030);
+playery = getfloat(pplayer + 0x034);
+playerz = getfloat(pplayer + 0x038);
+setfloat(pplayer + 0x1C4, 0.0);
+setchar(pplayer + 0x042, 0xA3);
+setchar(0x09f69054, 1);
+movementx = getfloat(pplayer + 0x030);
+movementy = getfloat(pplayer + 0x034);
+movementz = getfloat(pplayer + 0x038);
+setfloat(pplayer + 0x30, movementx);
+setfloat(pplayer + 0x34, movementy);
+setfloat(pplayer + 0x38, movementz);
+if(xstick < -0.5) movementx += 4;
+if(xstick > 0.5) movementx -= 4;
+if(ystick < -0.5) movementy += 4;
+if(ystick > 0.5) movementy -= 4;
+if(buttons & CTRL_UP) movementz += 4;
+if(buttons & CTRL_DOWN) movementz -= 4;
+}
+if(press & CTRL_TRIANGLE && press & CTRL_RIGHT)
+{
+setfloat(pplayer + 0x30, playerx);
+setfloat(pplayer + 0x34, playery);
+setfloat(pplayer + 0x38, playerz);
+setchar(pplayer + 0x042, 0xA2);
+setchar(0x09f69054, 0);
+}
+
+#cheat Free Camera
+if(press & CTRL_TRIANGLE&&press & CTRL_UP)
+{
+playerx = getfloat(pplayer + 0x030);
+playery = getfloat(pplayer + 0x034);
+playerz = getfloat(pplayer + 0x038);
+setfloat(pplayer + 0x1C4, 0.0);
+setchar(pplayer + 0x042, 0xA3);
+setchar(0x09f69054, 1);
+rot = (getfloat(pplayer, cos(rot)); getfloat(pplayer+0x4, sin(rot)));
+movementx = getfloat(pplayer + 0x78);
+movementy = getfloat(pplayer + 0x70);
+movementz = getfloat(pplayer + 0x28);
+//set player position and rotation
+setfloat(pplayer+0x30, movementx);
+setfloat(pplayer+0x34, movementy);
+setfloat(pplayer+0x34, movementz);
+setfloat(pplayer, cos(rot)); setfloat(pplayer+0x4, sin(rot));
+setfloat(pplayer+0x10, -sin(rot)); setfloat(pplayer+0x14, cos(rot));
+//movement
+if(xstick < -0.5) rot += 4;
+if(xstick > 0.5) rot -= 4;
+if(ystick < -0.5) {
+    setfloat(pplayer+0x30, getfloat(pplayer+0x30)-sin(rot)*0.1);
+    setfloat(pplayer+0x34, getfloat(pplayer+0x34)+cos(rot)*0.1);
+    }
+}
+if(press & CTRL_TRIANGLE&&press & CTRL_DOWN)
+{
+setfloat(pplayer + 0x30,  playerx);
+setfloat(pplayer + 0x34,  playery);
+setfloat(pplayer + 0x38,  playerz);
+setchar(pplayer + 0x042, 0xA2);
+setchar(0x09f69054,  0);
+}

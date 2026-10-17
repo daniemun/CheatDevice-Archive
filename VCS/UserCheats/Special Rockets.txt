@@ -1,0 +1,26 @@
+#cheat Get Rocket Launcher
+setint(pplayer+0x648, 0x00ffffff);
+setchar(pplayer+0xCB8, 0x07);
+setchar(pplayer+0x63C, 0x20);
+
+#cheat Teargas Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30){
+setchar(pbomb, 0x10);}
+
+#cheat Molotov Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30){
+setchar(pbomb, 0x11);}
+
+#cheat Normal Rockets
+for(pbomb = 0x08BF9E50; pbomb < 0x08BFA420; pbomb += 0x30){
+setchar(pbomb, 0x12);}
+
+#cheat Remote Explosive Rockets
+pexp = 0x08BF9E50;
+static det;
+if(getchar(pexp + 0x0C)){
+setchar(pexp + 0x0C, 0x0);
+det = 1;}
+if(det && buttons & CTRL_CROSS){
+setchar(pexp + 0x0C, 0x1);
+det = 0;}
